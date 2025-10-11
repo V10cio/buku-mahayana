@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Light background */
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50; /* Soothing Buddhist green */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Control buttons style */
+#controls {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#controls button {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #007BFF; /* Blue for interactivity */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#controls button:hover {
+    background-color: #0056b3;
+}
+
+/* Section styling */
+.chant-section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    color: #006400; /* Darker green for main headings */
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+h3 {
+    color: #333;
+    font-size: 1.3em;
+    margin-top: 20px;
+}
+
+/* Unit and Text styling */
+.verse-unit, .mantra-start, .mantra-end, .final-dedication, .invocation-list, .refuge-unit {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-left: 5px solid #ccc; /* Simple separator line */
+}
+
+.chinese {
+    font-family: serif; /* Use serif font for traditional feel */
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #333;
+    margin: 5px 0;
+    line-height: 1.2;
+}
+
+.pinyin {
+    font-size: 1.1em;
+    color: #666;
+    font-style: italic;
+    margin: 5px 0;
+}
+
+.translation {
+    font-size: 1em;
+    color: #006400; /* Green for meaning/translation */
+    border-top: 1px dashed #eee;
+    padding-top: 5px;
+    margin: 5px 0;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Style for Chanting Marks (〇, —, △) */
+.chant-mark {
+    font-family: 'Courier New', monospace; /* Fixed-width font to align marks */
+    font-size: 0.9em;
+    color: #cc0000; /* Red color to highlight the marks */
+    margin-left: 10px;
+    display: inline-block;
+    white-space: nowrap; /* Prevent marks from wrapping */
+}
+
+/* Specific formatting for the core recitation focus (Nian Fo) */
+.recitation-focus {
+    border: 2px solid #D35400; /* Orange border for focus */
+    padding: 15px;
+    text-align: center;
+}
+
+.recitation-focus .chinese {
+    font-size: 2.2em;
+    color: #D35400; /* Orange/Gold tone for focus */
+    margin: 15px 0;
+}
+
+.recitation-focus .pinyin, .recitation-focus .translation {
+    text-align: center;
+}
+
+/* Separator line style */
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+    margin: 40px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+    color: #333;
+    margin-top: 20px;
+}
